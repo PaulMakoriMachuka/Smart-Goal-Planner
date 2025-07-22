@@ -1,21 +1,7 @@
 {
   "goals": [
     {
-      "id": "7d71",
-      "name": "",
-      "targetAmount": "",
-      "category": "",
-      "deadline": ""
-    },
-    {
       "id": "52ca",
-      "name": "",
-      "targetAmount": "",
-      "category": "",
-      "deadline": ""
-    },
-    {
-      "id": "7a51",
       "name": "",
       "targetAmount": "",
       "category": "",
@@ -37,6 +23,42 @@
       "category": "",
       "created": "",
       "deadline": ""
+    },
+    {
+      "id": "7f0d",
+      "name": "goal;",
+      "targetAmount": "10000",
+      "totalAmount": "",
+      "category": "",
+      "created": "",
+      "deadline": "99"
+    },
+    {
+      "id": "67a7",
+      "name": "",
+      "targetAmount": "amount:rrrr",
+      "totalAmount": "",
+      "category": "",
+      "created": "",
+      "deadline": ""
+    },
+    {
+      "id": "e164",
+      "name": "",
+      "targetAmount": "amount:",
+      "totalAmount": "",
+      "category": "",
+      "created": "",
+      "deadline": "2025-07-22"
+    },
+    {
+      "id": "a7a2",
+      "name": "",
+      "targetAmount": "",
+      "totalAmount": "",
+      "category": "",
+      "created": "2025-07-22",
+      "deadline": "2025-07-22"
     }
   ]
 }
