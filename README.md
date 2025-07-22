@@ -59,8 +59,8 @@ Optional: Bootstrap or Tailwind CSS
 ##SUPPORT AND CONTACT DETAILS
 If you experience any issues, have ideas for improvements, or want to collaborate, please get in touch:
 
-📧 paulmakorimashuka@gmail.com
-📞 +254 717 382 704
+paulmakorimashuka@gmail.com
+ +254 717 382 704
 
 Feedback and contributions are highly appreciated!
 
