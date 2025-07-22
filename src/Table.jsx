@@ -1,42 +1,4 @@
-// import React from "react";
 
-// function Table({ goals = [], onRemoveGoal }) {
-//   return (
-//     <table className="table">
-//       <thead>
-//         <tr>
-//           <th>#</th>
-//           <th>Goal Name</th>
-//           <th>Target Amount</th>
-//           <th>Total Amount</th>
-//           <th>Category</th>
-//           <th>Created</th>
-//           <th>Deadline</th>
-//           <th>Handle</th>
-//         </tr>
-//       </thead>
-//       <tbody>
-//         {goals.map((goal, index) => (
-//           <tr key={index}>
-//             <th scope="row">{index + 1}</th>
-//             <td>{goal.name}</td>
-//             <td>{goal.targetAmount}</td>
-//             <td>{goal.totalAmount}</td>
-//             <td>{goal.category}</td>
-//             <td>{goal.created}</td>
-//             <td>{goal.deadline}</td>
-//             <td>
-//               <button onClick={() => onRemoveGoal(index)}>Remove</button>
-              
-//             </td>
-//           </tr>
-//         ))}
-//       </tbody>
-//     </table>
-//   );
-// }
-
-// export default Table;
 
 
 
@@ -47,7 +9,9 @@ function GoalForm({ onAddGoal }) {
   const [formData, setFormData] = useState({
     name: "",
     targetAmount: "",
+    totalAmount:"",
     category: "",
+    created :"",
     deadline: "",
   });
 
@@ -59,7 +23,7 @@ function GoalForm({ onAddGoal }) {
   function handleSubmit(e) {
     e.preventDefault();
     onAddGoal(formData);
-    setFormData({ name: "", targetAmount: "", category: "", deadline: "" });
+    setFormData({ name: "", targetAmount: "",totalAmount: "", category: "" ,created: "", deadline: "" });
   }
 
   return (

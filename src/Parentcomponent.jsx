@@ -1,31 +1,4 @@
-// import React, { useState } from "react";
-// import Routema from "./Routema";
-// import Table from "./Table";
-
-// function GoalDashboard() {
-//   const [goals, setGoals] = useState([]);
-
-//   function addGoal(newGoal) {
-//     setGoals([...goals, newGoal]);
-//   }
-
-//   function removeGoal(index) {
-//     const updatedGoals = goals.filter((_, i) => i !== index);
-//     setGoals(updatedGoals);
-//   }
-
-//   return (
-//     <div>
-//       <Routema page="Routema" onAddGoal={addGoal} />
-//       <Table goals={goals} onRemoveGoal={removeGoal} />
-//     </div>
-//   );
-// }
-
-// export default GoalDashboard;
-
-
-import { useEffect, useState } from "react";
+ import { useEffect, useState } from "react";
 import GoalForm from "./Table";
 import GoalItem from "./Routema";
 
