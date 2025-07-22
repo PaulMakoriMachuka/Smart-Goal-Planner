@@ -1,12 +1,70 @@
-# React + Vite
+##SMART GOAL PLANNER
+A personal finance web app for managing savings goals with progress tracking and deposits.
+— Version 1.0, July 20, 2025
+By Paul Makori Machuka
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+##DESCRIPTION
+Smart Goal Planner is a web-based savings management app that allows users to create financial goals, track their progress, and make deposits towards each target. It simulates real-time updates with full CRUD functionality using a local json-server. Designed for fintech use cases, it helps users stay focused, accountable, and organized while saving money for short- or long-term goals.
 
-Currently, two official plugins are available:
+The planner reflects good user interface design, efficient data management, and practical financial planning tools.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##THIS APPLICATION IS PERFECT FOR:
+Individuals who want to manage and track multiple savings goals.
 
-## Expanding the ESLint configuration
+Fintech startups building prototypes for savings-based features.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Developers learning React with real-world CRUD operations.
+
+Educators creating practical finance-based coding projects.
+
+##SETUP / INSTALLATION REQUIREMENTS
+Clone the repository:
+
+git clone https://github.com/your-username/smart-goal-planner.git
+cd smart-goal-planner
+Install project dependencies:
+
+npm install
+Start the json-server for backend simulation:
+
+
+npm install -g json-server
+json-server --watch db.json --port 3000
+Run the React development server:
+
+
+npm run dev
+Open your browser and visit:
+
+
+http://localhost:5173
+KNOWN BUGS
+There are currently no known bugs.
+
+If you find one, feel free to open an issue or contact me directly.
+
+##TECHNOLOGIES USED
+React.js (UI Framework)
+
+Vite (Fast build tool for React)
+
+json-server (Mock backend API)
+
+JavaScript (ES6+)
+
+CSS3 for styling
+
+Optional: Bootstrap or Tailwind CSS
+
+##SUPPORT AND CONTACT DETAILS
+If you experience any issues, have ideas for improvements, or want to collaborate, please get in touch:
+
+📧 paulmakorimashuka@gmail.com
+📞 +254 717 382 704
+
+Feedback and contributions are highly appreciated!
+
+##LICENSE
+This project is licensed under the MIT License.
+© 2025 Paul Makori Machuka
+
