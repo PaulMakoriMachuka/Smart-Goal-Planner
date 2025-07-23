@@ -29,8 +29,25 @@
       "createdAt": "2024-02-01"
     },
     {
-      "id": "5eec",
+      "id": "52ca",
       "name": "",
+      "targetAmount": "",
+      "totalAmount": "",
+      "category": "",
+      "created": "344",
+      "deadline": "2026-06-30"
+    },
+    {
+      "id": "a4c8",
+      "name": "BMW",
+      "targetAmount": "10000",
+      "category": "MMM",
+      "deadline": "77777",
+      "created": "r"
+    },
+    {
+      "id": "0d12",
+      "name": "BMW",
       "targetAmount": "",
       "totalAmount": "",
       "category": "",
@@ -71,8 +88,7 @@
       "totalAmount": "Total:",
       "category": "Category:",
       "created": "2025-07-23",
-      "deadline": "Deadline:",
-      "": "2025-07-23"
+      "deadline": "Deadline:"
     },
     {
       "id": "9b44",
@@ -109,6 +125,42 @@
       "category": "Category:mmmm",
       "created": "",
       "deadline": ""
+    },
+    {
+      "id": "7f0d",
+      "name": "goal;",
+      "targetAmount": "10000",
+      "totalAmount": "",
+      "category": "",
+      "created": "",
+      "deadline": "99"
+    },
+    {
+      "id": "67a7",
+      "name": "",
+      "targetAmount": "amount:rrrr",
+      "totalAmount": "",
+      "category": "",
+      "created": "",
+      "deadline": ""
+    },
+    {
+      "id": "e164",
+      "name": "",
+      "targetAmount": "amount:",
+      "totalAmount": "",
+      "category": "",
+      "created": "",
+      "deadline": "2025-07-22"
+    },
+    {
+      "id": "a7a2",
+      "name": "",
+      "targetAmount": "",
+      "totalAmount": "",
+      "category": "",
+      "created": "2025-07-22",
+      "deadline": "2025-07-22"
     }
   ]
 }
