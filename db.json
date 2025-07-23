@@ -1,64 +1,32 @@
 {
   "goals": [
     {
-      "id": "52ca",
-      "name": "",
-      "targetAmount": "",
-      "category": "",
-      "deadline": ""
+      "id": "1",
+      "name": "Travel Fund - Japan",
+      "targetAmount": 5000,
+      "savedAmount": 3200,
+      "category": "Travel",
+      "deadline": "2025-12-31",
+      "createdAt": "2024-01-15"
     },
     {
-      "id": "a4c8",
-      "name": "BMW",
-      "targetAmount": "10000",
-      "category": "MMM",
-      "deadline": "77777",
-      "created": "r"
+      "id": "2",
+      "name": "Emergency Fund",
+      "targetAmount": 10000,
+      "savedAmount": 7500,
+      "category": "Emergency",
+      "deadline": "2026-06-30",
+      "createdAt": "2023-05-01",
+      "totalAmount": "666"
     },
     {
-      "id": "0d12",
-      "name": "BMW",
-      "targetAmount": "",
-      "totalAmount": "",
-      "category": "",
-      "created": "",
-      "deadline": ""
-    },
-    {
-      "id": "7f0d",
-      "name": "goal;",
-      "targetAmount": "10000",
-      "totalAmount": "",
-      "category": "",
-      "created": "",
-      "deadline": "99"
-    },
-    {
-      "id": "67a7",
-      "name": "",
-      "targetAmount": "amount:rrrr",
-      "totalAmount": "",
-      "category": "",
-      "created": "",
-      "deadline": ""
-    },
-    {
-      "id": "e164",
-      "name": "",
-      "targetAmount": "amount:",
-      "totalAmount": "",
-      "category": "",
-      "created": "",
-      "deadline": "2025-07-22"
-    },
-    {
-      "id": "a7a2",
-      "name": "",
-      "targetAmount": "",
-      "totalAmount": "",
-      "category": "",
-      "created": "2025-07-22",
-      "deadline": "2025-07-22"
+      "id": "3",
+      "name": "Down Payment - House",
+      "targetAmount": 50000,
+      "savedAmount": 12000,
+      "category": "Real Estate",
+      "deadline": "2027-12-31",
+      "createdAt": "2024-02-01"
     }
   ]
 }

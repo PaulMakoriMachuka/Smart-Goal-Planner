@@ -17,6 +17,11 @@ function GoalItem({ goal, onUpdateGoal, onDeleteGoal }) {
   }
 
   return (
+    <div>
+      <div>
+      <h2>GAOL LIST</h2>
+      </div>
+      <div>
     <li style={{ marginBottom: "10px" }}>
       {isEditing ? (
         <form onSubmit={handleUpdate}>
@@ -25,18 +30,20 @@ function GoalItem({ goal, onUpdateGoal, onDeleteGoal }) {
           <input name="totalAmount" value={formData.totalAmount} onChange={handleChange} />
           <input name="category" value={formData.category} onChange={handleChange} />
           <input name="created" value={formData.created} onChange={handleChange} />
-          <input name="deadline" value={formData.deadline} onChange={handleChange} />
+          <input  name="deadline" value={formData.deadline} onChange={handleChange} />
           <button type="submit">Save</button>
           <button type="button" onClick={() => setIsEditing(false)}>Cancel</button>
         </form>
       ) : (
         <div>
-          <strong>{goal.name}</strong> - {goal.targetAmount}   - {goal.targetAmount}  - {goal.category} - {goal.deadline}
+          <strong>{goal.name}</strong> - {goal.targetAmount}   - {goal.totalAmount}  - {goal.category} - {goal.created} - {goal.deadline}
           <button onClick={() => setIsEditing(true)}>Edit</button>
           <button onClick={() => onDeleteGoal(goal.id)}>Delete</button>
         </div>
       )}
     </li>
+    </div>
+    </div>
   );
 }
 

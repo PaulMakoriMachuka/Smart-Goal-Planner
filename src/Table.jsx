@@ -1,18 +1,13 @@
-
-
-
-
 import { useState } from "react";
-
 
 function GoalForm({ onAddGoal }) {
   const [formData, setFormData] = useState({
     name: "",
     targetAmount: "",
-    totalAmount:"",
+    totalAmount: "",
     category: "",
-    created :"",
-    deadline: "",
+    created: "",
+    deadline: ""
   });
 
   function handleChange(e) {
@@ -22,18 +17,80 @@ function GoalForm({ onAddGoal }) {
 
   function handleSubmit(e) {
     e.preventDefault();
+
+    // Validation: check if any field is empty
+    for (const key in formData) {
+      if (formData[key].trim() === "") {
+        alert(`Please fill in the ${key} field.`);
+        return;
+      }
+    }
+
     onAddGoal(formData);
-    setFormData({ name: "", targetAmount: "",totalAmount: "", category: "" ,created: "", deadline: "" });
+
+    // Reset form
+    setFormData({
+      name: "",
+      targetAmount: "",
+      totalAmount: "",
+      category: "",
+      created: "",
+      deadline: ""
+    });
   }
 
   return (
     <form onSubmit={handleSubmit} className="mb-4">
-      <input name="name" value={formData.name} onChange={handleChange} placeholder="Goal Name" />
-      <input name="targetAmount" value={formData.targetAmount} onChange={handleChange} placeholder="Target Amount" />
-      <input name="totalAmount" value={formData.totalAmount} onChange={handleChange} placeholder="Total Amount" />
-      <input name="category" value={formData.category} onChange={handleChange} placeholder="Category" />
-      <input type="date"name="created" value={formData.created} onChange={handleChange} placeholder="Created" />
-      <input type="date" name="deadline" value={formData.deadline} onChange={handleChange} placeholder="Deadline" />
+      <label>Goal Name</label>
+      <input
+        name="name"
+        value={formData.name}
+        onChange={handleChange}
+        placeholder="Goal Name"
+      />
+
+      <label>Target Amount</label>
+      <input
+        name="targetAmount"
+        value={formData.targetAmount}
+        onChange={handleChange}
+        placeholder="Target Amount"
+        type="number"
+      />
+
+      <label>Total Amount</label>
+      <input
+        name="totalAmount"
+        value={formData.totalAmount}
+        onChange={handleChange}
+        placeholder="Total Amount"
+        type="number"
+      />
+
+      <label>Category</label>
+      <input
+        name="category"
+        value={formData.category}
+        onChange={handleChange}
+        placeholder="Category"
+      />
+
+      <label>Created</label>
+      <input
+        type="date"
+        name="created"
+        value={formData.created}
+        onChange={handleChange}
+      />
+
+      <label>Deadline</label>
+      <input
+        type="date"
+        name="deadline"
+        value={formData.deadline}
+        onChange={handleChange}
+      />
+
       <button type="submit">Add Goal</button>
     </form>
   );
